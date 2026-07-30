@@ -4,6 +4,8 @@
 
 I designed and built this at **14**, right after an internship at CERN that made me fall in love with engineering. It was the first time I ever used CAD software — every part was designed from scratch by me. It's also the project that got me my first 3D printer.
 
+![The finished turret](images/turret_view1.jpeg)
+
 ---
 
 ## ✨ Features
@@ -13,6 +15,11 @@ I designed and built this at **14**, right after an internship at CERN that made
 - **Single shot** and **rapid-fire (rafale)** modes
 - **Laser sight** that can be toggled on/off from the interface
 - Fully **self-hosted** — the ESP32 creates its own WiFi access point, no internet required
+
+<p align="center">
+  <img src="images/turret_view3.jpeg" width="45%">
+  <img src="images/turret_view5.jpeg" width="45%">
+</p>
 
 ---
 
@@ -30,25 +37,33 @@ The turret runs on an **ESP32** dev board, which hosts its own WiFi access point
 - A **buck converter** steps the 12 V down to 5 V for the logic and servos
 - A main power switch to arm/disarm the turret
 
+![Electronics](images/electronic.jpeg)
+
 ---
 
-## 🖥️ Web interface
+## 🎨 Designed from scratch
 
-The control page is served straight from the ESP32 and works on both desktop and mobile. A draggable crosshair sets the pan/tilt angles in real time, with toggle switches for the motors and laser, plus dedicated Shoot and Rapid-fire buttons.
+Every mechanical part was modeled by me in CAD — my very first time using such software. This is the project that pushed me to buy my first 3D printer.
 
-*(screenshot below)*
+![CAD design](images/cad_pics.jpeg)
+
+---
+
+## 🧪 From prototype to finished build
+
+Before the final turret, it went through several breadboard prototyping stages — testing the servos, the relay, the motors and the web control one piece at a time.
+
+<p align="center">
+  <img src="images/prototype1.jpeg" width="30%">
+  <img src="images/prototype3.jpeg" width="30%">
+  <img src="images/prototype4.jpeg" width="30%">
+</p>
 
 ---
 
 ## 🛠️ Built with
 
 `ESP32` · `Arduino / C++` · `HTML / CSS / JS` · `Custom CAD (self-designed parts)` · `FDM 3D printing`
-
----
-
-## 📸 Gallery
-
-*(photos & video coming here)*
 
 ---
 
